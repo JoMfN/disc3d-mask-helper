@@ -1,0 +1,9 @@
+torch
+torchvision
+transformers
+pillow
+numpy
+tqdm
+timm>=0.9.12
+accelerate
+safetensors
