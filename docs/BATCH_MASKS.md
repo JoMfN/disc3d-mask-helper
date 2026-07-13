@@ -43,13 +43,13 @@ SPECIMEN_ID/masks/
 ## Batch over export folders
 
 ```bash
-python scripts/batch_mask_exports.py   --exports-root /mnt/sda/DISC3Dscans/disc3d_exports   --mask-python /home/eliolc/miniconda3/envs/disc3d-mask/bin/python   --workers 2   --gpus 0,1   --limit 4
+python scripts/batch_mask_exports.py   --exports-root /mnt/sda/DISC3Dscans/disc3d_exports   --workers 2   --gpus 0,1   --limit 4
 ```
 
 For all specimens:
 
 ```bash
-python scripts/batch_mask_exports.py   --exports-root /mnt/sda/DISC3Dscans/disc3d_exports   --mask-python /home/eliolc/miniconda3/envs/disc3d-mask/bin/python   --workers 2   --gpus 0,1
+python scripts/batch_mask_exports.py   --exports-root /mnt/sda/DISC3Dscans/disc3d_exports   --workers 2   --gpus 0,1
 ```
 
 ## Only update JSON files after masks already exist
