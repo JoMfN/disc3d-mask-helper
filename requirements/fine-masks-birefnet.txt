@@ -11,3 +11,5 @@ opencv-python-headless
 timm>=0.9.12
 accelerate
 safetensors
+kornia
+einops
