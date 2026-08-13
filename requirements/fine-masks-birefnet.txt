@@ -1,0 +1,13 @@
+# Fine BiRefNet HR-matting mask generation.
+# Use a separate disc3d-mask environment; do not install into nerfstudio==1.1.5 env.
+torch
+torchvision
+transformers
+pillow
+numpy
+tqdm
+scipy
+opencv-python-headless
+timm>=0.9.12
+accelerate
+safetensors
